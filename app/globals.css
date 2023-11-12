@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300&family=Signika+Negative&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main-bg-color {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600;
+  }
+
+.button{
+  @apply flex justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600
+}
+.button2{
+  @apply flex justify-center rounded-md bg-yellow-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-yellow-700
+}
+.heading{
+  @apply text-xl font-signika  font-bold text-cyan-700
+}
